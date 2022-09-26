@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f0e3;
+}
+
+header.row.right{
+    padding: 4.2vmin 1vmin;
+}
+
+header.row.left{
+    padding: 22vmin 1vmin;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.right img{
+    width: 30rem;
+    height: 35rem;
+    object-fit: cover;
+    object-position: 0 92%;
+}
+
+.up{
+    width: 100rem;
+    
+
+}
+
+.up.img3{
+    height: 100%;
+    width: 100%;
+}
+
+.up.img.p{
+    padding: 3rem 0;
+}
+
+.left{
+    padding: 5rem;
+    width: 30rem;
+}
+
+.left h6{
+    letter-spacing: 4px;
+    color: rgb(88, 29, 15);
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+button{
+    background-color:#0a0a23;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    background-size: 500% auto;
+   box-shadow: rgba(0, 0, 0, 0.1)0px 4px 12px;
+    
+    margin-top: 6rem;
+}
+
+button:hover{
+    background-position:right center ;
+}
+
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+
+header a {
+    font-family: var(--Mon);
+    font-size: 0.9rem;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.nav-item:last-child {
+    padding-right: 5rem;
+}
+
+.nav-item {
+    padding: 0.2em;
+}
+
+.navbar-brand {
+    padding-left: 5rem;
+
+}
+
+.nav-link:hover {
+    color: pink;
+}
+
+
+.hero{
+    margin-top: 4rem;
+}
